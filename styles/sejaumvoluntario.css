@@ -1,0 +1,66 @@
+/* styles.css */
+:root {
+  --background-color: #f2f2f2;
+  --field-hover-color: #e2e2e2;
+  --border-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+}
+
+.sec {
+  display: flex;
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: flex-start;
+  /* Centraliza verticalmente */
+  height: 100vh;
+  /* Torna a altura 100% da viewport (altura visível da página) */
+  margin-top: 0px;
+
+}
+
+.Formulario {
+  width: 45%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.form-group {
+  margin: 10px 0;
+  width: 95%;
+}
+
+label {
+  font-weight: bold;
+  color: var(--border-color);
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.form-control:hover {
+  background-color: var(--field-hover-color);
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
